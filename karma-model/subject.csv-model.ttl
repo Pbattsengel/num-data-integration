@@ -1,0 +1,1341 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1f5qi89e1x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "subject.csv" ;
+	km-dev:modelPublicationTime "1621167973825"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Kharyalah_butets\"}],[{\"columnName\":\"English_ner\"}],[{\"columnName\":\"Laboratoriin_bagts_tsag\"}],[{\"columnName\":\"Mongol_ner\"}],[{\"columnName\":\"Seminariin_bagts_tsag\"}],[{\"columnName\":\"Hicheeliin_index\"}],[{\"columnName\":\"Lektsiin_bagts_tsag\"}],[{\"columnName\":\"Hicheeliin_dugaar\"}],[{\"columnName\":\"Todorhoilson_ognoo\"}],[{\"columnName\":\"Tovch_aguulga\"}],[{\"columnName\":\"Zorilgo\"}],[{\"columnName\":\"Oroh_uliral\"}],[{\"columnName\":\"Bagts_tsag\"}],[{\"columnName\":\"Surgaltiin_tuvshin\"}],[{\"columnName\":\"Kharyalah_tenhim\"}],[{\"columnName\":\"Dadlaga_sudalgaanii_bagts_tsag\"}],[{\"columnName\":\"Biy_daaltiin_bagts_tsag\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Kharyalah_butets\"}],[{\"columnName\":\"English_ner\"}],[{\"columnName\":\"Laboratoriin_bagts_tsag\"}],[{\"columnName\":\"Mongol_ner\"}],[{\"columnName\":\"Seminariin_bagts_tsag\"}],[{\"columnName\":\"Hicheeliin_index\"}],[{\"columnName\":\"Lektsiin_bagts_tsag\"}],[{\"columnName\":\"Hicheeliin_dugaar\"}],[{\"columnName\":\"Todorhoilson_ognoo\"}],[{\"columnName\":\"Tovch_aguulga\"}],[{\"columnName\":\"Zorilgo\"}],[{\"columnName\":\"Oroh_uliral\"}],[{\"columnName\":\"Bagts_tsag\"}],[{\"columnName\":\"Surgaltiin_tuvshin\"}],[{\"columnName\":\"Kharyalah_tenhim\"}],[{\"columnName\":\"Dadlaga_sudalgaanii_bagts_tsag\"}],[{\"columnName\":\"Biy_daaltiin_bagts_tsag\"}]]" ;
+	km-dev:hasModelLabel "subject.csv" ;
+	km-dev:hasBaseURI "http://numopendata.mn/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://numopendata.mn/source/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Hicheeliin_dugaar\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Hicheeliin_dugaar\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Hicheeliin_dugaar\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Hicheeliin_index\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Hicheeliin_index\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Hicheeliin_index\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mongol_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mongol_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mongol_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"English_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"English_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"English_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Kharyalah_butets\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_butets\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_butets\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Kharyalah_tenhim\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_tenhim\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_tenhim\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Surgaltiin_tuvshin\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Surgaltiin_tuvshin\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Surgaltiin_tuvshin\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Oroh_uliral\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Oroh_uliral\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Oroh_uliral\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Zorilgo\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Zorilgo\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Zorilgo\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Tovch_aguulga\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Tovch_aguulga\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Tovch_aguulga\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Todorhoilson_ognoo\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Todorhoilson_ognoo\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Todorhoilson_ognoo\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Lektsiin_bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Lektsiin_bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Lektsiin_bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Seminariin_bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Seminariin_bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Seminariin_bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Laboratoriin_bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Laboratoriin_bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Laboratoriin_bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Biy_daaltiin_bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Biy_daaltiin_bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Biy_daaltiin_bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Dadlaga_sudalgaanii_bagts_tsag\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject/Subject1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Dadlaga_sudalgaanii_bagts_tsag\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Dadlaga_sudalgaanii_bagts_tsag\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb a rr:TriplesMap .
+
+_:node1f5qi89e1x1 km-dev:hasTriplesMap km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x2 rr:tableName "subject.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasLogicalTable _:node1f5qi89e1x2 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:logicalTable _:node1f5qi89e1x2 ;
+	rr:subjectMap _:node1f5qi89e1x3 .
+
+_:node1f5qi89e1x1 km-dev:hasSubjectMap _:node1f5qi89e1x3 .
+
+_:node1f5qi89e1x3 km-dev:isPartOfMapping _:node1f5qi89e1x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject1" ;
+	rr:class <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject> ;
+	rr:template "{Hicheeliin_dugaar}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_34670975-8dd4-4332-815e-c9e4a0b990d4 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x4 rr:column "Kharyalah_butets" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x4 .
+
+km-dev:PredicateObjectMap_34670975-8dd4-4332-815e-c9e4a0b990d4 rr:objectMap _:node1f5qi89e1x4 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_34670975-8dd4-4332-815e-c9e4a0b990d4 .
+
+km-dev:PredicateObjectMap_34670975-8dd4-4332-815e-c9e4a0b990d4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34670975-8dd4-4332-815e-c9e4a0b990d4 .
+
+km-dev:PredicateObjectMap_f76ae371-ff0b-4617-861a-7718fbd9fd9a rr:predicate rdfs:label .
+
+_:node1f5qi89e1x5 rr:column "English_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x5 .
+
+km-dev:PredicateObjectMap_f76ae371-ff0b-4617-861a-7718fbd9fd9a rr:objectMap _:node1f5qi89e1x5 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_f76ae371-ff0b-4617-861a-7718fbd9fd9a .
+
+km-dev:PredicateObjectMap_f76ae371-ff0b-4617-861a-7718fbd9fd9a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f76ae371-ff0b-4617-861a-7718fbd9fd9a .
+
+km-dev:PredicateObjectMap_61b83aa0-f817-434e-84f0-bb43ba0ad729 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x6 rr:column "Laboratoriin_bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x6 .
+
+km-dev:PredicateObjectMap_61b83aa0-f817-434e-84f0-bb43ba0ad729 rr:objectMap _:node1f5qi89e1x6 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_61b83aa0-f817-434e-84f0-bb43ba0ad729 .
+
+km-dev:PredicateObjectMap_61b83aa0-f817-434e-84f0-bb43ba0ad729 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_61b83aa0-f817-434e-84f0-bb43ba0ad729 .
+
+km-dev:PredicateObjectMap_347e74dd-f73b-4730-b744-eb0cdc814ec4 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x7 rr:column "Mongol_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x7 .
+
+km-dev:PredicateObjectMap_347e74dd-f73b-4730-b744-eb0cdc814ec4 rr:objectMap _:node1f5qi89e1x7 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_347e74dd-f73b-4730-b744-eb0cdc814ec4 .
+
+km-dev:PredicateObjectMap_347e74dd-f73b-4730-b744-eb0cdc814ec4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_347e74dd-f73b-4730-b744-eb0cdc814ec4 .
+
+km-dev:PredicateObjectMap_40d67566-8032-40e0-a431-b4a0d672d958 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x8 rr:column "Seminariin_bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x8 .
+
+km-dev:PredicateObjectMap_40d67566-8032-40e0-a431-b4a0d672d958 rr:objectMap _:node1f5qi89e1x8 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_40d67566-8032-40e0-a431-b4a0d672d958 .
+
+km-dev:PredicateObjectMap_40d67566-8032-40e0-a431-b4a0d672d958 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_40d67566-8032-40e0-a431-b4a0d672d958 .
+
+km-dev:PredicateObjectMap_b41d8966-acf5-4e4e-9cac-aeba22ef967d rr:predicate rdfs:label .
+
+_:node1f5qi89e1x9 rr:column "Hicheeliin_index" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x9 .
+
+km-dev:PredicateObjectMap_b41d8966-acf5-4e4e-9cac-aeba22ef967d rr:objectMap _:node1f5qi89e1x9 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_b41d8966-acf5-4e4e-9cac-aeba22ef967d .
+
+km-dev:PredicateObjectMap_b41d8966-acf5-4e4e-9cac-aeba22ef967d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b41d8966-acf5-4e4e-9cac-aeba22ef967d .
+
+km-dev:PredicateObjectMap_d87e58f4-5b43-40b0-8a4b-e29878e793fc rr:predicate rdfs:label .
+
+_:node1f5qi89e1x10 rr:column "Lektsiin_bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x10 .
+
+km-dev:PredicateObjectMap_d87e58f4-5b43-40b0-8a4b-e29878e793fc rr:objectMap _:node1f5qi89e1x10 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_d87e58f4-5b43-40b0-8a4b-e29878e793fc .
+
+km-dev:PredicateObjectMap_d87e58f4-5b43-40b0-8a4b-e29878e793fc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d87e58f4-5b43-40b0-8a4b-e29878e793fc .
+
+km-dev:PredicateObjectMap_c441ba99-8b43-4fbc-a1e5-90153f68b433 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x11 rr:column "Todorhoilson_ognoo" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x11 .
+
+km-dev:PredicateObjectMap_c441ba99-8b43-4fbc-a1e5-90153f68b433 rr:objectMap _:node1f5qi89e1x11 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_c441ba99-8b43-4fbc-a1e5-90153f68b433 .
+
+km-dev:PredicateObjectMap_c441ba99-8b43-4fbc-a1e5-90153f68b433 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c441ba99-8b43-4fbc-a1e5-90153f68b433 .
+
+km-dev:PredicateObjectMap_48e032f7-6588-41c5-bf14-7293603773ab rr:predicate rdfs:label .
+
+_:node1f5qi89e1x12 rr:column "Tovch_aguulga" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x12 .
+
+km-dev:PredicateObjectMap_48e032f7-6588-41c5-bf14-7293603773ab rr:objectMap _:node1f5qi89e1x12 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_48e032f7-6588-41c5-bf14-7293603773ab .
+
+km-dev:PredicateObjectMap_48e032f7-6588-41c5-bf14-7293603773ab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_48e032f7-6588-41c5-bf14-7293603773ab .
+
+km-dev:PredicateObjectMap_88a307d3-71e4-4019-ae5f-59e9ae7df4b4 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x13 rr:column "Zorilgo" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x13 .
+
+km-dev:PredicateObjectMap_88a307d3-71e4-4019-ae5f-59e9ae7df4b4 rr:objectMap _:node1f5qi89e1x13 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_88a307d3-71e4-4019-ae5f-59e9ae7df4b4 .
+
+km-dev:PredicateObjectMap_88a307d3-71e4-4019-ae5f-59e9ae7df4b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_88a307d3-71e4-4019-ae5f-59e9ae7df4b4 .
+
+km-dev:PredicateObjectMap_e51f13fa-a135-4122-93f5-a28bbb9e9cfb rr:predicate rdfs:label .
+
+_:node1f5qi89e1x14 rr:column "Oroh_uliral" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x14 .
+
+km-dev:PredicateObjectMap_e51f13fa-a135-4122-93f5-a28bbb9e9cfb rr:objectMap _:node1f5qi89e1x14 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_e51f13fa-a135-4122-93f5-a28bbb9e9cfb .
+
+km-dev:PredicateObjectMap_e51f13fa-a135-4122-93f5-a28bbb9e9cfb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e51f13fa-a135-4122-93f5-a28bbb9e9cfb .
+
+km-dev:PredicateObjectMap_e54ca872-1b5e-42f9-8ad3-921d4b36e92c rr:predicate rdfs:label .
+
+_:node1f5qi89e1x15 rr:column "Bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x15 .
+
+km-dev:PredicateObjectMap_e54ca872-1b5e-42f9-8ad3-921d4b36e92c rr:objectMap _:node1f5qi89e1x15 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_e54ca872-1b5e-42f9-8ad3-921d4b36e92c .
+
+km-dev:PredicateObjectMap_e54ca872-1b5e-42f9-8ad3-921d4b36e92c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e54ca872-1b5e-42f9-8ad3-921d4b36e92c .
+
+km-dev:PredicateObjectMap_c836965b-eaf8-40a4-bf9f-2d7cdd9c82b5 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x16 rr:column "Surgaltiin_tuvshin" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x16 .
+
+km-dev:PredicateObjectMap_c836965b-eaf8-40a4-bf9f-2d7cdd9c82b5 rr:objectMap _:node1f5qi89e1x16 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_c836965b-eaf8-40a4-bf9f-2d7cdd9c82b5 .
+
+km-dev:PredicateObjectMap_c836965b-eaf8-40a4-bf9f-2d7cdd9c82b5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c836965b-eaf8-40a4-bf9f-2d7cdd9c82b5 .
+
+km-dev:PredicateObjectMap_f1e7a236-d0bb-4fd7-87e5-672da2ce02fa rr:predicate rdfs:label .
+
+_:node1f5qi89e1x17 rr:column "Kharyalah_tenhim" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x17 .
+
+km-dev:PredicateObjectMap_f1e7a236-d0bb-4fd7-87e5-672da2ce02fa rr:objectMap _:node1f5qi89e1x17 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_f1e7a236-d0bb-4fd7-87e5-672da2ce02fa .
+
+km-dev:PredicateObjectMap_f1e7a236-d0bb-4fd7-87e5-672da2ce02fa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f1e7a236-d0bb-4fd7-87e5-672da2ce02fa .
+
+km-dev:PredicateObjectMap_540238c3-8b85-4a0b-a477-81b8aef395fd rr:predicate rdfs:label .
+
+_:node1f5qi89e1x18 rr:column "Dadlaga_sudalgaanii_bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x18 .
+
+km-dev:PredicateObjectMap_540238c3-8b85-4a0b-a477-81b8aef395fd rr:objectMap _:node1f5qi89e1x18 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_540238c3-8b85-4a0b-a477-81b8aef395fd .
+
+km-dev:PredicateObjectMap_540238c3-8b85-4a0b-a477-81b8aef395fd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_540238c3-8b85-4a0b-a477-81b8aef395fd .
+
+km-dev:PredicateObjectMap_3c90b8d3-2a7e-4cbd-94ab-c289e94742e5 rr:predicate rdfs:label .
+
+_:node1f5qi89e1x19 rr:column "Biy_daaltiin_bagts_tsag" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasObjectMap _:node1f5qi89e1x19 .
+
+km-dev:PredicateObjectMap_3c90b8d3-2a7e-4cbd-94ab-c289e94742e5 rr:objectMap _:node1f5qi89e1x19 .
+
+km-dev:TriplesMap_4b5c862c-2a4e-4fbc-8a33-4a5cd09affcb rr:predicateObjectMap km-dev:PredicateObjectMap_3c90b8d3-2a7e-4cbd-94ab-c289e94742e5 .
+
+km-dev:PredicateObjectMap_3c90b8d3-2a7e-4cbd-94ab-c289e94742e5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qi89e1x1 .
+
+_:node1f5qi89e1x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3c90b8d3-2a7e-4cbd-94ab-c289e94742e5 .

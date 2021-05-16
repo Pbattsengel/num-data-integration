@@ -1,0 +1,838 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1f5qhkoo3x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "program.csv" ;
+	km-dev:modelPublicationTime "1621167334147"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Academic_tuvshin\"}],[{\"columnName\":\"Suraltsah_helber\"}],[{\"columnName\":\"Kharyalah_negjiin_dugaar\"}],[{\"columnName\":\"Kharyalah_negjiin_ner\"}],[{\"columnName\":\"Batlagdsan_ognoo\"}],[{\"columnName\":\"Khutulburiin_dugaar\"}],[{\"columnName\":\"Khutulburiin_index\"}],[{\"columnName\":\"Khutulburiin_mongol_ner\"}],[{\"columnName\":\"Khutulburiin_english_ner\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Academic_tuvshin\"}],[{\"columnName\":\"Suraltsah_helber\"}],[{\"columnName\":\"Kharyalah_negjiin_dugaar\"}],[{\"columnName\":\"Kharyalah_negjiin_ner\"}],[{\"columnName\":\"Batlagdsan_ognoo\"}],[{\"columnName\":\"Khutulburiin_dugaar\"}],[{\"columnName\":\"Khutulburiin_index\"}],[{\"columnName\":\"Khutulburiin_mongol_ner\"}],[{\"columnName\":\"Khutulburiin_english_ner\"}]]" ;
+	km-dev:hasModelLabel "program.csv" ;
+	km-dev:hasBaseURI "http://numopendata.mn/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://numopendata.mn/source/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"program.csv\",
+                    \"hasBaseURI\": false,
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Khutulburiin_dugaar\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_dugaar\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_dugaar\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Khutulburiin_index\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_index\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_index\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Khutulburiin_mongol_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_mongol_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_mongol_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Khutulburiin_english_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_english_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Khutulburiin_english_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Academic_tuvshin\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Academic_tuvshin\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Academic_tuvshin\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Suraltsah_helber\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Suraltsah_helber\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Suraltsah_helber\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Kharyalah_negjiin_dugaar\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_negjiin_dugaar\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_negjiin_dugaar\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Kharyalah_negjiin_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department/Department1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_negjiin_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Kharyalah_negjiin_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Batlagdsan_ognoo\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program/Program1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Batlagdsan_ognoo\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Batlagdsan_ognoo\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\",
+                    \"edgeId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_school_department_of\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 a rr:TriplesMap .
+
+_:node1f5qhkoo3x1 km-dev:hasTriplesMap km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x2 rr:tableName "program.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasLogicalTable _:node1f5qhkoo3x2 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:logicalTable _:node1f5qhkoo3x2 ;
+	rr:subjectMap _:node1f5qhkoo3x3 .
+
+_:node1f5qhkoo3x1 km-dev:hasSubjectMap _:node1f5qhkoo3x3 .
+
+_:node1f5qhkoo3x3 km-dev:isPartOfMapping _:node1f5qhkoo3x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program1" ;
+	rr:class <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program> ;
+	rr:template "{Khutulburiin_dugaar}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_b0c0aea4-229d-4ab6-94d0-2ada5f284b91 rr:predicate <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_school_department_of> .
+
+km-dev:RefObjectMap_0ee45ba4-771f-4327-a9ba-a3152552a56b a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap km-dev:RefObjectMap_0ee45ba4-771f-4327-a9ba-a3152552a56b .
+
+km-dev:PredicateObjectMap_b0c0aea4-229d-4ab6-94d0-2ada5f284b91 rr:objectMap km-dev:RefObjectMap_0ee45ba4-771f-4327-a9ba-a3152552a56b .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_b0c0aea4-229d-4ab6-94d0-2ada5f284b91 .
+
+km-dev:PredicateObjectMap_b0c0aea4-229d-4ab6-94d0-2ada5f284b91 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b0c0aea4-229d-4ab6-94d0-2ada5f284b91 .
+
+km-dev:PredicateObjectMap_2696ebb9-8d45-430c-9ad9-840f29e70884 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x4 rr:column "Academic_tuvshin" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x4 .
+
+km-dev:PredicateObjectMap_2696ebb9-8d45-430c-9ad9-840f29e70884 rr:objectMap _:node1f5qhkoo3x4 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_2696ebb9-8d45-430c-9ad9-840f29e70884 .
+
+km-dev:PredicateObjectMap_2696ebb9-8d45-430c-9ad9-840f29e70884 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2696ebb9-8d45-430c-9ad9-840f29e70884 .
+
+km-dev:PredicateObjectMap_a4504389-7b10-4924-99b5-68778b80c17a rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x5 rr:column "Suraltsah_helber" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x5 .
+
+km-dev:PredicateObjectMap_a4504389-7b10-4924-99b5-68778b80c17a rr:objectMap _:node1f5qhkoo3x5 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_a4504389-7b10-4924-99b5-68778b80c17a .
+
+km-dev:PredicateObjectMap_a4504389-7b10-4924-99b5-68778b80c17a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a4504389-7b10-4924-99b5-68778b80c17a .
+
+km-dev:PredicateObjectMap_e4d9f14f-c13b-480f-b685-4b73205a98b3 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x6 rr:column "Batlagdsan_ognoo" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x6 .
+
+km-dev:PredicateObjectMap_e4d9f14f-c13b-480f-b685-4b73205a98b3 rr:objectMap _:node1f5qhkoo3x6 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_e4d9f14f-c13b-480f-b685-4b73205a98b3 .
+
+km-dev:PredicateObjectMap_e4d9f14f-c13b-480f-b685-4b73205a98b3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e4d9f14f-c13b-480f-b685-4b73205a98b3 .
+
+km-dev:PredicateObjectMap_e3cab7c7-ef1b-450c-a1a6-46f986c3c025 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x7 rr:column "Khutulburiin_index" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x7 .
+
+km-dev:PredicateObjectMap_e3cab7c7-ef1b-450c-a1a6-46f986c3c025 rr:objectMap _:node1f5qhkoo3x7 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_e3cab7c7-ef1b-450c-a1a6-46f986c3c025 .
+
+km-dev:PredicateObjectMap_e3cab7c7-ef1b-450c-a1a6-46f986c3c025 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e3cab7c7-ef1b-450c-a1a6-46f986c3c025 .
+
+km-dev:PredicateObjectMap_f1bf16c2-1b6c-4606-b9ca-8dc3295a51a4 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x8 rr:column "Khutulburiin_mongol_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x8 .
+
+km-dev:PredicateObjectMap_f1bf16c2-1b6c-4606-b9ca-8dc3295a51a4 rr:objectMap _:node1f5qhkoo3x8 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_f1bf16c2-1b6c-4606-b9ca-8dc3295a51a4 .
+
+km-dev:PredicateObjectMap_f1bf16c2-1b6c-4606-b9ca-8dc3295a51a4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f1bf16c2-1b6c-4606-b9ca-8dc3295a51a4 .
+
+km-dev:PredicateObjectMap_f7923384-10ef-4dea-84c5-ab63915a2fe7 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x9 rr:column "Khutulburiin_english_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x9 .
+
+km-dev:PredicateObjectMap_f7923384-10ef-4dea-84c5-ab63915a2fe7 rr:objectMap _:node1f5qhkoo3x9 .
+
+km-dev:TriplesMap_293248fc-77fd-471a-a422-0f98b72bd949 rr:predicateObjectMap km-dev:PredicateObjectMap_f7923384-10ef-4dea-84c5-ab63915a2fe7 .
+
+km-dev:PredicateObjectMap_f7923384-10ef-4dea-84c5-ab63915a2fe7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f7923384-10ef-4dea-84c5-ab63915a2fe7 .
+
+km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f a rr:TriplesMap .
+
+_:node1f5qhkoo3x1 km-dev:hasTriplesMap km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f .
+
+km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x10 rr:tableName "program.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasLogicalTable _:node1f5qhkoo3x10 .
+
+km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f rr:logicalTable _:node1f5qhkoo3x10 ;
+	rr:subjectMap _:node1f5qhkoo3x11 .
+
+_:node1f5qhkoo3x1 km-dev:hasSubjectMap _:node1f5qhkoo3x11 .
+
+_:node1f5qhkoo3x11 km-dev:isPartOfMapping _:node1f5qhkoo3x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1" ;
+	rr:class <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> ;
+	rr:template "{Kharyalah_negjiin_dugaar}" .
+
+km-dev:PredicateObjectMap_1f7bf4df-3788-4752-ba24-9464ebe9ab22 rr:predicate rdfs:label .
+
+_:node1f5qhkoo3x12 rr:column "Kharyalah_negjiin_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasObjectMap _:node1f5qhkoo3x12 .
+
+km-dev:PredicateObjectMap_1f7bf4df-3788-4752-ba24-9464ebe9ab22 rr:objectMap _:node1f5qhkoo3x12 .
+
+km-dev:TriplesMap_f445e989-4bda-4cc5-808d-313d4702887f rr:predicateObjectMap km-dev:PredicateObjectMap_1f7bf4df-3788-4752-ba24-9464ebe9ab22 .
+
+km-dev:PredicateObjectMap_1f7bf4df-3788-4752-ba24-9464ebe9ab22 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhkoo3x1 .
+
+_:node1f5qhkoo3x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1f7bf4df-3788-4752-ba24-9464ebe9ab22 .

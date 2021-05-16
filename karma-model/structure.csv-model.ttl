@@ -1,0 +1,426 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1f5qhcuqux1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "structure.csv" ;
+	km-dev:modelPublicationTime "1621167078238"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Buttsiin_haryalagdah_negjiin_dugaar\"}],[{\"columnName\":\"Buttsiin_negjiin_dugaar\"}],[{\"columnName\":\"Buttsiin_haryalagdah_negjiin_ner\"}],[{\"columnName\":\"Buttsiin_negjiin_ner\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Buttsiin_haryalagdah_negjiin_dugaar\"}],[{\"columnName\":\"Buttsiin_negjiin_dugaar\"}],[{\"columnName\":\"Buttsiin_haryalagdah_negjiin_ner\"}],[{\"columnName\":\"Buttsiin_negjiin_ner\"}]]" ;
+	km-dev:hasModelLabel "structure.csv" ;
+	km-dev:hasBaseURI "http://numopendata.mn/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://numopendata.mn/source/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Buttsiin_negjiin_dugaar\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_negjiin_dugaar\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_negjiin_dugaar\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Buttsiin_negjiin_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization/Organization1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_negjiin_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_negjiin_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Buttsiin_haryalagdah_negjiin_dugaar\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_haryalagdah_negjiin_dugaar\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_haryalagdah_negjiin_dugaar\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Buttsiin_haryalagdah_negjiin_ner\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\",
+                    \"DomainId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2000/01/rdf-schema#label\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department/Department1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_haryalagdah_negjiin_ner\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Buttsiin_haryalagdah_negjiin_ner\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1\",
+                    \"edgeId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 a rr:TriplesMap .
+
+_:node1f5qhcuqux1 km-dev:hasTriplesMap km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 .
+
+km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux2 rr:tableName "structure.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasLogicalTable _:node1f5qhcuqux2 .
+
+km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 rr:logicalTable _:node1f5qhcuqux2 ;
+	rr:subjectMap _:node1f5qhcuqux3 .
+
+_:node1f5qhcuqux1 km-dev:hasSubjectMap _:node1f5qhcuqux3 .
+
+_:node1f5qhcuqux3 km-dev:isPartOfMapping _:node1f5qhcuqux1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization1" ;
+	rr:class <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> ;
+	rr:template "{Buttsiin_negjiin_dugaar}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_e47791b9-5218-45dc-986a-52b4b668ee5a rr:predicate <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> .
+
+km-dev:RefObjectMap_6ec76dcd-d489-43ef-8c46-3f3f37e11108 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasObjectMap km-dev:RefObjectMap_6ec76dcd-d489-43ef-8c46-3f3f37e11108 .
+
+km-dev:PredicateObjectMap_e47791b9-5218-45dc-986a-52b4b668ee5a rr:objectMap km-dev:RefObjectMap_6ec76dcd-d489-43ef-8c46-3f3f37e11108 .
+
+km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 rr:predicateObjectMap km-dev:PredicateObjectMap_e47791b9-5218-45dc-986a-52b4b668ee5a .
+
+km-dev:PredicateObjectMap_e47791b9-5218-45dc-986a-52b4b668ee5a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e47791b9-5218-45dc-986a-52b4b668ee5a .
+
+km-dev:PredicateObjectMap_b3364331-ce76-4390-8cb2-486fa3bd08a2 rr:predicate rdfs:label .
+
+_:node1f5qhcuqux4 rr:column "Buttsiin_negjiin_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasObjectMap _:node1f5qhcuqux4 .
+
+km-dev:PredicateObjectMap_b3364331-ce76-4390-8cb2-486fa3bd08a2 rr:objectMap _:node1f5qhcuqux4 .
+
+km-dev:TriplesMap_369f5f70-2410-49a8-b040-81c464e33853 rr:predicateObjectMap km-dev:PredicateObjectMap_b3364331-ce76-4390-8cb2-486fa3bd08a2 .
+
+km-dev:PredicateObjectMap_b3364331-ce76-4390-8cb2-486fa3bd08a2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b3364331-ce76-4390-8cb2-486fa3bd08a2 .
+
+km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 a rr:TriplesMap .
+
+_:node1f5qhcuqux1 km-dev:hasTriplesMap km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 .
+
+km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux5 rr:tableName "structure.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasLogicalTable _:node1f5qhcuqux5 .
+
+km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 rr:logicalTable _:node1f5qhcuqux5 ;
+	rr:subjectMap _:node1f5qhcuqux6 .
+
+_:node1f5qhcuqux1 km-dev:hasSubjectMap _:node1f5qhcuqux6 .
+
+_:node1f5qhcuqux6 km-dev:isPartOfMapping _:node1f5qhcuqux1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department1" ;
+	rr:class <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> ;
+	rr:template "{Buttsiin_haryalagdah_negjiin_dugaar}" .
+
+km-dev:PredicateObjectMap_0ee2c909-5e17-4e7c-8847-c8adfa56e2bd rr:predicate rdfs:label .
+
+_:node1f5qhcuqux7 rr:column "Buttsiin_haryalagdah_negjiin_ner" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasObjectMap _:node1f5qhcuqux7 .
+
+km-dev:PredicateObjectMap_0ee2c909-5e17-4e7c-8847-c8adfa56e2bd rr:objectMap _:node1f5qhcuqux7 .
+
+km-dev:TriplesMap_f52bbf29-823b-453b-9537-08e8b81010d6 rr:predicateObjectMap km-dev:PredicateObjectMap_0ee2c909-5e17-4e7c-8847-c8adfa56e2bd .
+
+km-dev:PredicateObjectMap_0ee2c909-5e17-4e7c-8847-c8adfa56e2bd a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1f5qhcuqux1 .
+
+_:node1f5qhcuqux1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0ee2c909-5e17-4e7c-8847-c8adfa56e2bd .
