@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#contact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#contact">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#PersonContact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#current_status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#current_status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has_degree_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has_degree_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Education"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#more_about -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#more_about">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_department_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_department_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_school_department_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_school_department_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#related_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#taught -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#taught">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#work_as -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#work_as">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#works_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#works_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Office"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#AssignmentCreditTIme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#AssignmentCreditTIme">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#AvaiableSits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#AvaiableSits">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DOW -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DOW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DegreeLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DegreeLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DescribedDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#DescribedDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EducationLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EducationLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Education"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#PersonContact"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EndTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EndTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EnrollType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EnrollType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EntryNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#EntryNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#FirstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#FirstName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Goal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Goal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#InternResearchCreditTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#InternResearchCreditTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#IsProjectorAvailableForRoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#IsProjectorAvailableForRoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#IsRoomAvailableForSchedule -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#IsRoomAvailableForSchedule">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LaboratoryCreditTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LaboratoryCreditTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LastName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LectureCreditTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#LectureCreditTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#OfficeRoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#OfficeRoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Office"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Period -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Period">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramEnglishName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramEnglishName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramIndex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramIndex">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramMongolianName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProgramMongolianName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProvenDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#ProvenDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedDepartment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedDepartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedSchoolName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedSchoolName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedStructure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedStructure">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedStructureUnitName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RelatedStructureUnitName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomSitNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomSitNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomSquare -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomSquare">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#RoomType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SchoolBuilding -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SchoolBuilding">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SchoolYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SchoolYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Season -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Season">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SeminarCreditTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SeminarCreditTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StartDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StartTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StartTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StructureUnitName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#StructureUnitName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectCredit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectCredit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectEnglishName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectEnglishName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectIndex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectIndex">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectMongolianName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectMongolianName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#SubjectType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#TeacherName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#TeacherName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Office -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Office">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#PersonContact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#PersonContact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Room">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Entity"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,726 @@
+<http://numopendata.mn/source/1e20d50d456f1bb2ad84c338d4158964> <http://www.w3.org/2000/01/rdf-schema#label> "Боловсрол Соёл Шинжлэх Ухааны Яам" .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол Улсын Их Сургууль" .
+<http://numopendata.mn/source/1e20d50d456f1bb2ad84c338d4158964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/1e20d50d456f1bb2ad84c338d4158964> .
+
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол Улсын Их Сургууль" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол Улсын Их Сургууль" .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> .
+
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол Улсын Их Сургууль" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> .
+<http://numopendata.mn/source/bbe431dcc28a93d6e4f56f57a3f4117c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/ac180a54e8446cf921d26db1e8282bea> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/ac180a54e8446cf921d26db1e8282bea> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/ac180a54e8446cf921d26db1e8282bea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/4ffaec264153c95d8f05d4fa1db8e538> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ffaec264153c95d8f05d4fa1db8e538> <http://www.w3.org/2000/01/rdf-schema#label> "Багшийн хөгжил, цахим сургалтын төв" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/4ffaec264153c95d8f05d4fa1db8e538> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/32200b643c854ccce44fa61c95cbf7ef> <http://www.w3.org/2000/01/rdf-schema#label> "Инноваци, технологи дамжуулах төв" .
+<http://numopendata.mn/source/32200b643c854ccce44fa61c95cbf7ef> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/32200b643c854ccce44fa61c95cbf7ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/2d638f00e5d63bda702705229b806665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/2d638f00e5d63bda702705229b806665> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа, хүний нөөцийн газар" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/2d638f00e5d63bda702705229b806665> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/292471bb4be78a153f9f55d30785211e> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/292471bb4be78a153f9f55d30785211e> <http://www.w3.org/2000/01/rdf-schema#label> "Мэдээллийн технологийн газар" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/292471bb4be78a153f9f55d30785211e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d59e2007033beab126bff40f204e5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/d59e2007033beab126bff40f204e5234> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/d59e2007033beab126bff40f204e5234> <http://www.w3.org/2000/01/rdf-schema#label> "Номын сан" .
+
+<http://numopendata.mn/source/57b5701b9e51467d4b5353ee5d28fa78> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутан, төгсөгчийн хэлтэс" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/57b5701b9e51467d4b5353ee5d28fa78> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/57b5701b9e51467d4b5353ee5d28fa78> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/476314fcb27dc04bdcd71b08fca0c605> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/476314fcb27dc04bdcd71b08fca0c605> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүү, төлөвлөлтийн газар" .
+<http://numopendata.mn/source/476314fcb27dc04bdcd71b08fca0c605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/2e30660388f36d7b6880b739170bd4ce> <http://www.w3.org/2000/01/rdf-schema#label> "Хамтын ажиллагааны хэлтэс" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/2e30660388f36d7b6880b739170bd4ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/2e30660388f36d7b6880b739170bd4ce> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> <http://www.w3.org/2000/01/rdf-schema#label> "Хангамж үйлчилгээний газар" .
+
+<http://numopendata.mn/source/ffa45d11afecbd345fcae3a680378a07> <http://www.w3.org/2000/01/rdf-schema#label> "Хөтөлбөр, чанарын баталгаажуулалтын хэлтэс" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/ffa45d11afecbd345fcae3a680378a07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ffa45d11afecbd345fcae3a680378a07> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/962cab366a795a3c70f4fcb56df01c80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/962cab366a795a3c70f4fcb56df01c80> <http://www.w3.org/2000/01/rdf-schema#label> "Хяналт-Шинжилгээ, үнэлгээний алба" .
+<http://numopendata.mn/source/962cab366a795a3c70f4fcb56df01c80> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> <http://www.w3.org/2000/01/rdf-schema#label> "Элсэлт, бүртгэлийн хэлтэс" .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+<http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргааны нэгжүүд" .
+<http://numopendata.mn/source/899cfd1225c051c6185790cad151bca6> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэм шинжилгээний хэлтэс" .
+<http://numopendata.mn/source/899cfd1225c051c6185790cad151bca6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/899cfd1225c051c6185790cad151bca6> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/55729407c8f1512168be1a3e13648a13> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/2000/01/rdf-schema#label> "Шинжлэх ухааны сургууль" .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/2000/01/rdf-schema#label> "Олон улсын харилцаа, нийтийн удирдлагын сургууль" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> <http://www.w3.org/2000/01/rdf-schema#label> "Ахисан түвшний сургууль" .
+<http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/bfff175271543b9ce64eca8ac288c391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bfff175271543b9ce64eca8ac288c391> <http://www.w3.org/2000/01/rdf-schema#label> "Байгаль-Эх Лицей Ахлах Сургууль, Экологийн Боловсролын Төв" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bfff175271543b9ce64eca8ac288c391> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/2000/01/rdf-schema#label> "Бүрэлдэхүүн/Салбар сургуулиуд" .
+<http://numopendata.mn/source/43b6fd57cdbd12a32c89d44344ef25cf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/edbbf2d65f79f48b0dddd6679f43c11b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/edbbf2d65f79f48b0dddd6679f43c11b> <http://www.w3.org/2000/01/rdf-schema#label> "Өвөр зайсан сургалт судалгааны төв" .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/edbbf2d65f79f48b0dddd6679f43c11b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+
+<http://numopendata.mn/source/d91368eba03fffe9345d82175ea2a843> <http://www.w3.org/2000/01/rdf-schema#label> "Генийн инженерчлэлийн лаборатори " .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d91368eba03fffe9345d82175ea2a843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/d91368eba03fffe9345d82175ea2a843> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/0245637ca98507b47030f7d33dcf1ebf> <http://www.w3.org/2000/01/rdf-schema#label> "Күнзийн институт" .
+<http://numopendata.mn/source/0245637ca98507b47030f7d33dcf1ebf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/0245637ca98507b47030f7d33dcf1ebf> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/3f81f192680a971d0d31b45f3ae23629> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/3f81f192680a971d0d31b45f3ae23629> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол судлалын хүрээлэн" .
+<http://numopendata.mn/source/3f81f192680a971d0d31b45f3ae23629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/5ef783a41f00cea28b738ba71ea03c26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/5ef783a41f00cea28b738ba71ea03c26> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол-Японы хүний нөөцийн хөгжлийн төв" .
+<http://numopendata.mn/source/5ef783a41f00cea28b738ba71ea03c26> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/0ef4bbee3df64f02b94844444d22f2b6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/0ef4bbee3df64f02b94844444d22f2b6> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/0ef4bbee3df64f02b94844444d22f2b6> <http://www.w3.org/2000/01/rdf-schema#label> "МУИС хэвлэлийн газар" .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/09139fa970ae3649396ecc6e50dd5618> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/09139fa970ae3649396ecc6e50dd5618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/09139fa970ae3649396ecc6e50dd5618> <http://www.w3.org/2000/01/rdf-schema#label> "Хот, бүс нутгийн хөгжлийн судалгааны хүрээлэн" .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/719ab8afed25e1c61e376e63a01b038c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/719ab8afed25e1c61e376e63a01b038c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/719ab8afed25e1c61e376e63a01b038c> <http://www.w3.org/2000/01/rdf-schema#label> "Цөмийн физикийн судалгааны төв" .
+
+<http://numopendata.mn/source/a053434ce7cad9eb26f966d12bb37ecb> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/a053434ce7cad9eb26f966d12bb37ecb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/a053434ce7cad9eb26f966d12bb37ecb> <http://www.w3.org/2000/01/rdf-schema#label> "Хөгжлийн судалгааны төв" .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/91aed73a85a0d30f5a0958f76a101842> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+<http://numopendata.mn/source/91aed73a85a0d30f5a0958f76a101842> <http://www.w3.org/2000/01/rdf-schema#label> "Тогтвортой хөгжлийн хүрээлэн " .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/91aed73a85a0d30f5a0958f76a101842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/66ae86393eb2d21b6606aa3cf296d43c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> <http://www.w3.org/2000/01/rdf-schema#label> "Бие даасан нэгжүүд" .
+<http://numopendata.mn/source/66ae86393eb2d21b6606aa3cf296d43c> <http://www.w3.org/2000/01/rdf-schema#label> "Эмнэлэг" .
+<http://numopendata.mn/source/66ae86393eb2d21b6606aa3cf296d43c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/ce0bc4a3037cc6d83b8c0840003e9140> .
+
+<http://numopendata.mn/source/4c46ae940ff769dfb9b4c57d39b514cc> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+<http://numopendata.mn/source/4c46ae940ff769dfb9b4c57d39b514cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4c46ae940ff769dfb9b4c57d39b514cc> <http://www.w3.org/2000/01/rdf-schema#label> "Японы эрх зүйн боловсролын төв" .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+
+<http://numopendata.mn/source/761d490dc349fecddb999adfeed5d723> <http://www.w3.org/2000/01/rdf-schema#label> "Нийтийн эрх зүйн тэнхим" .
+<http://numopendata.mn/source/761d490dc349fecddb999adfeed5d723> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/761d490dc349fecddb999adfeed5d723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+
+<http://numopendata.mn/source/018bcb1deb108c5f4520f193b1b34016> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+<http://numopendata.mn/source/018bcb1deb108c5f4520f193b1b34016> <http://www.w3.org/2000/01/rdf-schema#label> "Солонгосын эрх зүйн боловсрол төв" .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/018bcb1deb108c5f4520f193b1b34016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+
+<http://numopendata.mn/source/072da524a0d17f905e3c21cc7087dcad> <http://www.w3.org/2000/01/rdf-schema#label> "Хувийн эрх зүйн тэнхим" .
+<http://numopendata.mn/source/072da524a0d17f905e3c21cc7087dcad> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+<http://numopendata.mn/source/072da524a0d17f905e3c21cc7087dcad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+<http://numopendata.mn/source/674dd3c3ba110904e10fff7ccfb3538e> <http://www.w3.org/2000/01/rdf-schema#label> "Практик сургалтын төв" .
+<http://numopendata.mn/source/674dd3c3ba110904e10fff7ccfb3538e> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+<http://numopendata.mn/source/674dd3c3ba110904e10fff7ccfb3538e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/1e34f9e1d860f8298f1321f085080e65> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/1e34f9e1d860f8298f1321f085080e65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> <http://www.w3.org/2000/01/rdf-schema#label> "Хууль зүйн сургууль" .
+<http://numopendata.mn/source/1e34f9e1d860f8298f1321f085080e65> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4d68eea1853d24e744637f40555fe064> .
+
+<http://numopendata.mn/source/d2e83e3b92e946d570587735cb5b3ed1> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+<http://numopendata.mn/source/d2e83e3b92e946d570587735cb5b3ed1> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/d2e83e3b92e946d570587735cb5b3ed1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/9aac361cac1f71ef36d47e6bee0a3337> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+<http://numopendata.mn/source/9aac361cac1f71ef36d47e6bee0a3337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/9aac361cac1f71ef36d47e6bee0a3337> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнес консалтинг төв" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/a1a930c2eafb0161875b9e2f6085258e> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+<http://numopendata.mn/source/a1a930c2eafb0161875b9e2f6085258e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/a1a930c2eafb0161875b9e2f6085258e> <http://www.w3.org/2000/01/rdf-schema#label> "Нягтлан бодох бүртгэлийн тэнхим" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/d24cfc0c4e133f07ad83ada5273545d5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d24cfc0c4e133f07ad83ada5273545d5> <http://www.w3.org/2000/01/rdf-schema#label> "Менежментийн тэнхим" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d24cfc0c4e133f07ad83ada5273545d5> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+
+<http://numopendata.mn/source/4697803616488f659934284de8707375> <http://www.w3.org/2000/01/rdf-schema#label> "Маркетинг худалдааны тэнхим" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/4697803616488f659934284de8707375> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4697803616488f659934284de8707375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/536140d151337e50be195ef92303cd3b> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүүгийн тэнхим" .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн сургууль" .
+<http://numopendata.mn/source/536140d151337e50be195ef92303cd3b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> .
+<http://numopendata.mn/source/bc5834e5243bdfef3aad970ee1bdbf5b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/536140d151337e50be195ef92303cd3b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/2000/01/rdf-schema#label> "Олон улсын харилцаа, нийтийн удирдлагын сургууль" .
+<http://numopendata.mn/source/b67e939b8ef336073df3428c38374abc> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/b67e939b8ef336073df3428c38374abc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/b67e939b8ef336073df3428c38374abc> <http://www.w3.org/2000/01/rdf-schema#label> "Нийтийн удирдлагын тэнхим" .
+
+<http://numopendata.mn/source/c5c2bc2b5edd6823df71d38f9a85b229> <http://www.w3.org/2000/01/rdf-schema#label> "Олон улсын харилцааны тэнхим" .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/2000/01/rdf-schema#label> "Олон улсын харилцаа, нийтийн удирдлагын сургууль" .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/c5c2bc2b5edd6823df71d38f9a85b229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/c5c2bc2b5edd6823df71d38f9a85b229> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> .
+
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/2000/01/rdf-schema#label> "Олон улсын харилцаа, нийтийн удирдлагын сургууль" .
+<http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/df8e8711a8d3eab383d190f67645900f> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/9aa99fb82d22c477bd36c50f3731d196> .
+<http://numopendata.mn/source/df8e8711a8d3eab383d190f67645900f> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/df8e8711a8d3eab383d190f67645900f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/4b8139b04630950873015bf751ac5b38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> <http://www.w3.org/2000/01/rdf-schema#label> "Элсэлт, бүртгэлийн хэлтэс" .
+<http://numopendata.mn/source/4b8139b04630950873015bf751ac5b38> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/16593e3be866cdc93aec5169150113ed> .
+<http://numopendata.mn/source/4b8139b04630950873015bf751ac5b38> <http://www.w3.org/2000/01/rdf-schema#label> "Биеийн тамирын тэнхим" .
+
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> <http://www.w3.org/2000/01/rdf-schema#label> "Хангамж үйлчилгээний газар" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/74e0842e2d93de0c3333ff3e8de9b64c> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/e116bcdb70d411ca17075c01fbe5a760> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/e116bcdb70d411ca17075c01fbe5a760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/e116bcdb70d411ca17075c01fbe5a760> <http://www.w3.org/2000/01/rdf-schema#label> "Сургалт, оюутны алба" .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/b9ec7caead3e20d1788a09c37f1885fa> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/b9ec7caead3e20d1788a09c37f1885fa> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэм шинжилгээ, инновацийн алба" .
+<http://numopendata.mn/source/b9ec7caead3e20d1788a09c37f1885fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/3995649a4e9b479920d77f893300976b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/3995649a4e9b479920d77f893300976b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/3995649a4e9b479920d77f893300976b> <http://www.w3.org/2000/01/rdf-schema#label> "Бизнесийн ухааны тэнхим" .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/f33bff64b2e8f687b884a711a75de0a0> <http://www.w3.org/2000/01/rdf-schema#label> "Англи-Монгол хэлний тэнхим" .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/f33bff64b2e8f687b884a711a75de0a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f33bff64b2e8f687b884a711a75de0a0> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/726537a743e777385ab8b8f821aca804> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/726537a743e777385ab8b8f821aca804> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/726537a743e777385ab8b8f821aca804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/7c1bbedbba1cced9d696b99e643f4771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/7c1bbedbba1cced9d696b99e643f4771> <http://www.w3.org/2000/01/rdf-schema#label> "Гадаад хэлний тэнхим" .
+<http://numopendata.mn/source/7c1bbedbba1cced9d696b99e643f4771> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/b4ee6da2cd4c7d9992435c32cdcacbc5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/b4ee6da2cd4c7d9992435c32cdcacbc5> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/b4ee6da2cd4c7d9992435c32cdcacbc5> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүү, хангамж үйлчилгээний алба" .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/cff4b9e24596d0eb7c63dc8056d0abc7> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/cff4b9e24596d0eb7c63dc8056d0abc7> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүү, эдийн засгийн тэнхим" .
+<http://numopendata.mn/source/cff4b9e24596d0eb7c63dc8056d0abc7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэнэт сургууль" .
+<http://numopendata.mn/source/a72cff91dea65c83c3c89e47dc086d9c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/a72cff91dea65c83c3c89e47dc086d9c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/00c52a787753519cc4fe8565f2419a5c> .
+<http://numopendata.mn/source/a72cff91dea65c83c3c89e47dc086d9c> <http://www.w3.org/2000/01/rdf-schema#label> "Нягтлан бодох бүртгэлийн тэнхим" .
+
+<http://numopendata.mn/source/5b4840b08afb1eb1214c9face003af6b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/5b4840b08afb1eb1214c9face003af6b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/5b4840b08afb1eb1214c9face003af6b> <http://www.w3.org/2000/01/rdf-schema#label> "Нягтлан бодох бүртгэлийн тэнхим" .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/d58d454193e488ee855daf5c87214775> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүү, эдийн засгийн тэнхим" .
+<http://numopendata.mn/source/d58d454193e488ee855daf5c87214775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+<http://numopendata.mn/source/d58d454193e488ee855daf5c87214775> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+
+<http://numopendata.mn/source/3d0c61a4b09b07e5b910af24bf8e545f> <http://www.w3.org/2000/01/rdf-schema#label> "Санхүү, хангамж үйлчилгээний алба" .
+<http://numopendata.mn/source/3d0c61a4b09b07e5b910af24bf8e545f> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/3d0c61a4b09b07e5b910af24bf8e545f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/75c49ef71e2bcac0b7db73bef7ab816b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/75c49ef71e2bcac0b7db73bef7ab816b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/75c49ef71e2bcac0b7db73bef7ab816b> <http://www.w3.org/2000/01/rdf-schema#label> "Ерөнхий эрдмийн тэнхим" .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/816d62250b021f5214b30e9836dcbca4> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/816d62250b021f5214b30e9836dcbca4> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/816d62250b021f5214b30e9836dcbca4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/35aabdb2b2956c36d874b64a8d2cc24b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/35aabdb2b2956c36d874b64a8d2cc24b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/35aabdb2b2956c36d874b64a8d2cc24b> <http://www.w3.org/2000/01/rdf-schema#label> "Эрдэм шинжилгээ, инновацийн алба" .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+
+<http://numopendata.mn/source/cf5e5f43c2c844fc9aa3b4234a6b3f8d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/cf5e5f43c2c844fc9aa3b4234a6b3f8d> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/bf4b3fef1b3dbc393e44a3c87e3ce3b1> <http://www.w3.org/2000/01/rdf-schema#label> "Завхан сургууль" .
+<http://numopendata.mn/source/cf5e5f43c2c844fc9aa3b4234a6b3f8d> <http://www.w3.org/2000/01/rdf-schema#label> "Сургалт, оюутны алба" .
+
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/2000/01/rdf-schema#label> "Шинжлэх ухааны сургууль" .
+
+<http://numopendata.mn/source/b75abce90383eee324b9820f8bba5926> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> .
+<http://numopendata.mn/source/b75abce90383eee324b9820f8bba5926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/2000/01/rdf-schema#label> "Шинжлэх ухааны сургууль" .
+<http://numopendata.mn/source/b75abce90383eee324b9820f8bba5926> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/2000/01/rdf-schema#label> "Шинжлэх ухааны сургууль" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> .
+<http://numopendata.mn/source/f149aee84795d36ea5b5ec612157262e> <http://www.w3.org/2000/01/rdf-schema#label> "Шинжлэх ухааны сургууль" .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/f94cd83084c9928804bc38cc3fc3940d> <http://www.w3.org/2000/01/rdf-schema#label> "Мэдээлэл, компьютерийн ухааны тэнхим" .
+<http://numopendata.mn/source/f94cd83084c9928804bc38cc3fc3940d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+<http://numopendata.mn/source/f94cd83084c9928804bc38cc3fc3940d> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/09219620e3a5657082cdc101c4831612> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+<http://numopendata.mn/source/09219620e3a5657082cdc101c4831612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+<http://numopendata.mn/source/09219620e3a5657082cdc101c4831612> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/3cd655a86baa53fece96ce751b704d7f> <http://www.w3.org/2000/01/rdf-schema#label> "Хүрээлэн буй орчин, ойн инженерчлэлийн тэнхим" .
+<http://numopendata.mn/source/3cd655a86baa53fece96ce751b704d7f> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+<http://numopendata.mn/source/3cd655a86baa53fece96ce751b704d7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/8afa6421eed2b207733af1946682a7e5> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний математикийн тэнхим" .
+<http://numopendata.mn/source/8afa6421eed2b207733af1946682a7e5> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+<http://numopendata.mn/source/8afa6421eed2b207733af1946682a7e5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4f4f2448f85dc544fb806c792e9b7adf> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+<http://numopendata.mn/source/4f4f2448f85dc544fb806c792e9b7adf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4f4f2448f85dc544fb806c792e9b7adf> <http://www.w3.org/2000/01/rdf-schema#label> "Хими, биологийн инженерчлэлийн тэнхим" .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/68ede2c2a5cf611f3df9f92af9b8c841> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> .
+<http://numopendata.mn/source/68ede2c2a5cf611f3df9f92af9b8c841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/68ede2c2a5cf611f3df9f92af9b8c841> <http://www.w3.org/2000/01/rdf-schema#label> "Электроник, холбооны инженерчлэлийн тэнхим" .
+<http://numopendata.mn/source/7a3e42287b64490eddac1278b26d0742> <http://www.w3.org/2000/01/rdf-schema#label> "Хэрэглээний шинжлэх ухаан, инженерчлэлийн сургууль" .
+
+<http://numopendata.mn/source/19ef0bc497c4a55c7c5a747fc04f64a9> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/19ef0bc497c4a55c7c5a747fc04f64a9> <http://www.w3.org/2000/01/rdf-schema#label> "Шинэ материалын хими технологийн төв" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/19ef0bc497c4a55c7c5a747fc04f64a9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/cd050d82148072943389ff6fb06390a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/cd050d82148072943389ff6fb06390a6> <http://www.w3.org/2000/01/rdf-schema#label> "Химийн тэнхим" .
+<http://numopendata.mn/source/cd050d82148072943389ff6fb06390a6> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+
+<http://numopendata.mn/source/231d3689c9afe209d3da20c48209489f> <http://www.w3.org/2000/01/rdf-schema#label> "Физикийн тэнхим" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/231d3689c9afe209d3da20c48209489f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/231d3689c9afe209d3da20c48209489f> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/b7f162eb22ba29a68e6f732d66d5c2ee> <http://www.w3.org/2000/01/rdf-schema#label> "Геологи, геофизикийн тэнхим" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/b7f162eb22ba29a68e6f732d66d5c2ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/b7f162eb22ba29a68e6f732d66d5c2ee> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+
+<http://numopendata.mn/source/58b5e95b313a0d1c140d3f809c8529ce> <http://www.w3.org/2000/01/rdf-schema#label> "Газарзүйн тэнхим" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/58b5e95b313a0d1c140d3f809c8529ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/58b5e95b313a0d1c140d3f809c8529ce> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+
+<http://numopendata.mn/source/6018f407df4927a1a0676f717b159204> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+<http://numopendata.mn/source/6018f407df4927a1a0676f717b159204> <http://www.w3.org/2000/01/rdf-schema#label> "Биологийн тэнхим" .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/6018f407df4927a1a0676f717b159204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+
+<http://numopendata.mn/source/c38b93674cf1286afa59d931cd34cb50> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/de46dac2bf13507db0738d67159b5234> <http://www.w3.org/2000/01/rdf-schema#label> "Байгалийн ухааны салбар" .
+<http://numopendata.mn/source/c38b93674cf1286afa59d931cd34cb50> <http://www.w3.org/2000/01/rdf-schema#label> "Математикийн тэнхим" .
+<http://numopendata.mn/source/c38b93674cf1286afa59d931cd34cb50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4bc769f0f30a1a3fd062d11b1a12a695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4bc769f0f30a1a3fd062d11b1a12a695> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/4bc769f0f30a1a3fd062d11b1a12a695> <http://www.w3.org/2000/01/rdf-schema#label> "Боловсрол, сэтгэл судлалын тэнхим" .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/d0b93e1826279ccb6c700cf21829d860> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d0b93e1826279ccb6c700cf21829d860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d0b93e1826279ccb6c700cf21829d860> <http://www.w3.org/2000/01/rdf-schema#label> "Антропологи, археологийн тэнхим" .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/d5b3e5cc7693f7b489f6b53bb54c143a> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d5b3e5cc7693f7b489f6b53bb54c143a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d5b3e5cc7693f7b489f6b53bb54c143a> <http://www.w3.org/2000/01/rdf-schema#label> "Улс төр судлалын тэнхим" .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/0ee1bd1e7d2a987e2478b26552edcaff> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/0ee1bd1e7d2a987e2478b26552edcaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/0ee1bd1e7d2a987e2478b26552edcaff> <http://www.w3.org/2000/01/rdf-schema#label> "Сэтгүүл зүй, олон нийтийн харилцааны тэнхим" .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/38c5a92adb4a4b07652295dc93bdc35a> <http://www.w3.org/2000/01/rdf-schema#label> "Социологи, нийгмийн ажлын тэнхим" .
+<http://numopendata.mn/source/38c5a92adb4a4b07652295dc93bdc35a> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/38c5a92adb4a4b07652295dc93bdc35a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/2000/01/rdf-schema#label> "Нийгмийн ухааны салбар" .
+<http://numopendata.mn/source/9ed9b4e48ec006fb6b7603d0179eb553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/9ed9b4e48ec006fb6b7603d0179eb553> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/b1af2663149af3c006f51b4236322378> .
+<http://numopendata.mn/source/9ed9b4e48ec006fb6b7603d0179eb553> <http://www.w3.org/2000/01/rdf-schema#label> "Эдийн засгийн тэнхим" .
+
+<http://numopendata.mn/source/6d3285f34024abbe7ca1739fb9bd9597> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/6d3285f34024abbe7ca1739fb9bd9597> <http://www.w3.org/2000/01/rdf-schema#label> "Түүхийн тэнхим" .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/6d3285f34024abbe7ca1739fb9bd9597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/0e10ba29341d908485540648bf8a67c9> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/0e10ba29341d908485540648bf8a67c9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/0e10ba29341d908485540648bf8a67c9> <http://www.w3.org/2000/01/rdf-schema#label> "Утга зохиол, урлаг судлалын тэнхим" .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/3c2b831a627bcaa67fd44c00732b576d> <http://www.w3.org/2000/01/rdf-schema#label> "Философи, шашин судлалын тэнхим" .
+<http://numopendata.mn/source/3c2b831a627bcaa67fd44c00732b576d> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/3c2b831a627bcaa67fd44c00732b576d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/5a34847a1c447c1d7e96fc032aca023a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/5a34847a1c447c1d7e96fc032aca023a> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/5a34847a1c447c1d7e96fc032aca023a> <http://www.w3.org/2000/01/rdf-schema#label> "Ази судлалын тэнхим" .
+
+<http://numopendata.mn/source/c8a1d2c516ca9bc0c3a981f16563291b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/c8a1d2c516ca9bc0c3a981f16563291b> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/c8a1d2c516ca9bc0c3a981f16563291b> <http://www.w3.org/2000/01/rdf-schema#label> "Гадаад хэлний сургалтын төв" .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/6ed39561d2b0c87b817045c8d23acc4a> <http://www.w3.org/2000/01/rdf-schema#label> "Европ судлалын тэнхим" .
+<http://numopendata.mn/source/6ed39561d2b0c87b817045c8d23acc4a> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/6ed39561d2b0c87b817045c8d23acc4a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/1bd938390e3a5fc0c195c6ca6420313a> <http://www.w3.org/2000/01/rdf-schema#label> "Их Британи, Америк судлалын тэнхим" .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/1bd938390e3a5fc0c195c6ca6420313a> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/1bd938390e3a5fc0c195c6ca6420313a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/95a485b3b976ad8389524ac2ac642520> <http://www.w3.org/2000/01/rdf-schema#label> "Монгол хэл, хэл шинжлэлийн тэнхим" .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/2000/01/rdf-schema#label> "Хүмүүнлэгийн ухааны салбар" .
+<http://numopendata.mn/source/95a485b3b976ad8389524ac2ac642520> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> .
+<http://numopendata.mn/source/95a485b3b976ad8389524ac2ac642520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/d1fc365da09f2b4243224b261da8bcb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+
+<http://numopendata.mn/source/1eafb228d2067dcde3a81a55ac1a2ce6> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/1eafb228d2067dcde3a81a55ac1a2ce6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/1eafb228d2067dcde3a81a55ac1a2ce6> <http://www.w3.org/2000/01/rdf-schema#label> "Сантехникийн хэсэг" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/873d88430eb231b27d4d635fab0cd479> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 1-р байр" .
+<http://numopendata.mn/source/873d88430eb231b27d4d635fab0cd479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/873d88430eb231b27d4d635fab0cd479> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/570a661e68f0bfbb0294d9257317c12d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/570a661e68f0bfbb0294d9257317c12d> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 2-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/570a661e68f0bfbb0294d9257317c12d> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/4247b6215bae55b0e1e5474fc3af46d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/4247b6215bae55b0e1e5474fc3af46d3> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 3-р байр" .
+<http://numopendata.mn/source/4247b6215bae55b0e1e5474fc3af46d3> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/d9ff2df12a9426571448929e30ba4582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/d9ff2df12a9426571448929e30ba4582> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 4-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/d9ff2df12a9426571448929e30ba4582> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/e51112236ee90e89d3a481d1966ec5ac> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 5-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/e51112236ee90e89d3a481d1966ec5ac> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/e51112236ee90e89d3a481d1966ec5ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/812e24a5a64608050b57e6f76628ce20> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/812e24a5a64608050b57e6f76628ce20> <http://www.w3.org/2000/01/rdf-schema#label> "Оюутны 6-р байр" .
+<http://numopendata.mn/source/812e24a5a64608050b57e6f76628ce20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+
+<http://numopendata.mn/source/3ed864e5865c305efaee745dcb2eb82f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/3ed864e5865c305efaee745dcb2eb82f> <http://www.w3.org/2000/01/rdf-schema#label> "E-Номын сан" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/3ed864e5865c305efaee745dcb2eb82f> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/18dd9fb068fb274e73edfea0362d3f70> <http://www.w3.org/2000/01/rdf-schema#label> "Авто граж" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/18dd9fb068fb274e73edfea0362d3f70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/18dd9fb068fb274e73edfea0362d3f70> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/a13624c0b6071ecd13bdb8664cf36323> <http://www.w3.org/2000/01/rdf-schema#label> "Барилгын бригад" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/a13624c0b6071ecd13bdb8664cf36323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/a13624c0b6071ecd13bdb8664cf36323> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/8e266db91bf848aa9220dddb9ca47d6c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/8e266db91bf848aa9220dddb9ca47d6c> <http://www.w3.org/2000/01/rdf-schema#label> "Хүн эмнэлгийн салбар" .
+<http://numopendata.mn/source/8e266db91bf848aa9220dddb9ca47d6c> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/5afedc0965442e8dbca28bc85380a45e> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/5afedc0965442e8dbca28bc85380a45e> <http://www.w3.org/2000/01/rdf-schema#label> "Цахилгааны хэсэг" .
+<http://numopendata.mn/source/5afedc0965442e8dbca28bc85380a45e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/77228a1ac5deab46d5ffa577f6d15e45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/77228a1ac5deab46d5ffa577f6d15e45> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 1-р байр" .
+<http://numopendata.mn/source/77228a1ac5deab46d5ffa577f6d15e45> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/355da621786199d28567cb0c20e026ef> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/355da621786199d28567cb0c20e026ef> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 2-р байр" .
+<http://numopendata.mn/source/355da621786199d28567cb0c20e026ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/40ff22a1780dcc4030d9e43328dcebbf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/40ff22a1780dcc4030d9e43328dcebbf> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 3-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/40ff22a1780dcc4030d9e43328dcebbf> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/46fb8709118c3310854d68073d300d86> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/46fb8709118c3310854d68073d300d86> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/46fb8709118c3310854d68073d300d86> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 4-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/9854dd77b7df6cbb817fa8f143e9a770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/9854dd77b7df6cbb817fa8f143e9a770> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 5-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/9854dd77b7df6cbb817fa8f143e9a770> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/ac4566d4d067b4e87651124c64473449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/ac4566d4d067b4e87651124c64473449> <http://www.w3.org/2000/01/rdf-schema#label> "Хичээлийн 7-р байр" .
+<http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> <http://www.w3.org/2000/01/rdf-schema#label> "Үйлчилгээний нэгж" .
+<http://numopendata.mn/source/ac4566d4d067b4e87651124c64473449> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/4ab639ed964d37b6fa1bb088812e7731> .
+
+<http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Department> .
+<http://numopendata.mn/source/95fda41c1bc5c0d6e83d0a8d1cff49b5> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#has> <http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> .
+<http://numopendata.mn/source/95fda41c1bc5c0d6e83d0a8d1cff49b5> <http://www.w3.org/2000/01/rdf-schema#label> "Захиргаа" .
+<http://numopendata.mn/source/95fda41c1bc5c0d6e83d0a8d1cff49b5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alienware/ontologies/2021/4/untitled-ontology-12#Organization> .
+<http://numopendata.mn/source/93db2061340ef60fe3e37c4a39c56583> <http://www.w3.org/2000/01/rdf-schema#label> "Ахисан түвшний сургууль" .
+
